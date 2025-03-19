@@ -1,0 +1,69 @@
+// Ensure BYU-approved fonts
+.byu-footer {
+    background-color: #002E5D; // Navy background
+    color: #FFFFFF; // White text
+    text-align: center;
+    padding: 10px 20px; // Increased padding for more spacing
+    font-family: 'Public Sans', 'Noto Sans', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px; // Slightly larger base font
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; // More spacing between elements
+  }
+  
+  .footer-title {
+    font-family: 'HCo Ringside Narrow SSm Bold', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 700; // Bolder text
+    font-size: 22px; // Larger title size
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: 5px; // Slightly more spaced letters
+    margin-bottom: 10px;
+  }
+  
+  .footer-text {
+    font-family: 'HCo Ringside Narrow SSm', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400; // Slightly bolder for better visibility
+    font-size: 14px; // Increased font size
+    margin: 4px 0; // More spacing
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1px; // More space between links
+  }
+  
+  .footer-links a {
+    font-family: 'HCo Ringside Narrow SSm', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400; // Slightly bolder links
+    font-size: 14px; // Increased font size for better readability
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 8px; // More horizontal spacing
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-phone {
+    color: #FFFFFF; // Matches the footer text color
+    text-decoration: none;
+    font-weight: 500; // Slightly bolder for visibility
+    white-space: nowrap;
+  }
+  
+  .footer-phone:hover {
+    text-decoration: underline; // Underline on hover for better UX
+  }
+  
+  

@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // Ensures full viewport height
+  }
+  
+  .page-content {
+    flex-grow: 1; // Pushes the footer down
+  }
+  
+  .byu-footer {
+    margin-top: auto; // Ensures it stays at the bottom
+  }
+  
